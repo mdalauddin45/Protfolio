@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import { useContext } from "react";
 import { Link } from "react-router-dom";
-import { AuthContext } from "../contexts/AuthProvider";
-import PrimaryButton from "../Components/Button/PrimaryButton";
+import PrimaryButton from "../../components/Button/PrimaryButton";
 
 const Navbar = () => {
-  const { user, logout } = useContext(AuthContext);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
