@@ -1,9 +1,10 @@
 import React from "react";
+import HeaderSection from "./HeaderSection";
 
 function Home() {
   return (
     <div>
-      <h1>this is Home</h1>
+      <HeaderSection />
     </div>
   );
 }
