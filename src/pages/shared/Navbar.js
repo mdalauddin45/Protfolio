@@ -50,16 +50,36 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
           <li>
-            <Link to="/resume">Download Resume</Link>
+            <Link
+              className=" hover:font-bold hover:text-white rounded-full hover:bg-gradient-to-r hover:from-emerald-500 hover:to-lime-500"
+              to="/resume"
+            >
+              Download Resume
+            </Link>
           </li>
           <li>
-            <Link to="/about">About me</Link>
+            <Link
+              className=" hover:font-bold hover:text-white rounded-full hover:bg-gradient-to-r hover:from-emerald-500 hover:to-lime-500"
+              to="/about"
+            >
+              About me
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact me</Link>
+            <Link
+              className=" hover:font-bold hover:text-white rounded-full hover:bg-gradient-to-r hover:from-emerald-500 hover:to-lime-500"
+              to="/contact"
+            >
+              Contact me
+            </Link>
           </li>
           <li>
-            <Link to="/blog">My Blog</Link>
+            <Link
+              className=" hover:font-bold hover:text-white rounded-full hover:bg-gradient-to-r hover:from-emerald-500 hover:to-lime-500"
+              to="/blog"
+            >
+              My Blog
+            </Link>
           </li>
         </ul>
       </div>

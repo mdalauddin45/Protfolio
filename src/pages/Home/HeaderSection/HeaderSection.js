@@ -9,10 +9,10 @@ function HeaderSection() {
     <section id="Head" className="text-gray-900">
       <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
         <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-          <h1 className="text-4xl leading-none sm:text-2xl">Hello, I'm</h1>
-          <h1 className="text-7xl  leading-none sm:text-5xl">Ala Uddin</h1>
+          <h1 className="text-5xl leading-none sm:text-2xl">Hello, I'm</h1>
+          <h1 className="text-8x  leading-none sm:text-7xl">Ala Uddin</h1>
 
-          <h1 className="mt-2 text-xl sm:mb-4">
+          <h1 className="mt-2 text-2xl sm:mb-4">
             Creative <span className="text-green-500">Web Developer</span> From
             Bangladesh
           </h1>
