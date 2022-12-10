@@ -24,7 +24,7 @@ const About = () => {
             </h1>
             <p className="mt-6 mb-8 text-lg sm:mb-12">
               Hello there! I'm a web designer, and I'm very passionate and
-              dedicated to my work. With 20 years experience as a professional
+              dedicated to my work. With 6 months experience as a professional
               web developer, I have acquired the skills and knowledge necessary
               to make your project a success. I enjoy every step of the design
               process, from discussion and collaboration.
