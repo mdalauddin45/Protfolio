@@ -27,8 +27,17 @@ const Navbar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <Link to="/resume">Download Resume</Link>
+              <a
+                type="button"
+                href={
+                  "https://drive.google.com/u/0/uc?id=1zYmz80jpaKnQpuI-ZOs0nh4O36amud5d&export=download"
+                }
+                target="_blank"
+              >
+                Download Resume
+              </a>
             </li>
+
             <li>
               <Link>About me</Link>
             </li>
@@ -50,12 +59,16 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
           <li>
-            <Link
+            <a
+              type="button"
+              href={
+                "https://drive.google.com/u/0/uc?id=1zYmz80jpaKnQpuI-ZOs0nh4O36amud5d&export=download"
+              }
+              target="_blank"
               className=" hover:font-bold hover:text-white rounded-full hover:bg-gradient-to-r hover:from-emerald-500 hover:to-lime-500"
-              to="/resume"
             >
               Download Resume
-            </Link>
+            </a>
           </li>
           <li>
             <Link
