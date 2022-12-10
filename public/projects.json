@@ -11,24 +11,24 @@
     "id":2,
     "image":"https://i.ibb.co/hMndNGp/bandicam-2022-12-10-11-27-12-208.jpg",
     "live-site":"https://bgc-tech.web.app/",
-    "client-side":"https://github.com/mdalauddin45/Korai-Restaurant-Clint",
-    "server-side":"https://github.com/mdalauddin45/Korai-Restaurant-Server"
+    "client-side":"https://github.com/mdalauddin45/learning-platform-client-side",
+    "server-side":"https://github.com/mdalauddin45/lerning-platform-server-side"
     
 },
 {
     "id":3,
     "image":"https://i.ibb.co/LP0hBph/bandicam-2022-12-10-11-27-04-400.jpg",
     "live-site":"https://ctggaribazar.web.app/",
-    "client-side":"https://github.com/mdalauddin45/Korai-Restaurant-Clint",
-    "server-side":"https://github.com/mdalauddin45/Korai-Restaurant-Server"
+    "client-side":"https://github.com/mdalauddin45/Car-Seal-Cline-Side",
+    "server-side":"https://github.com/mdalauddin45/Car-Seal-Server-sdte"
     
 },
 {
     "id":4,
     "image":"https://i.ibb.co/1f8zqfv/bandicam-2022-12-10-11-32-02-135.jpg",
     "live-site":"https://bgc-doctors-portal.web.app/",
-    "client-side":"https://github.com/mdalauddin45/Korai-Restaurant-Clint",
-    "server-side":"https://github.com/mdalauddin45/Korai-Restaurant-Server"
+    "client-side":"https://github.com/mdalauddin45/doctors-portal-client",
+    "server-side":"https://github.com/mdalauddin45/Doctors-Portal-Server"
     
 }
 ]

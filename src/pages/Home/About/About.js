@@ -24,10 +24,10 @@ const About = () => {
             </h1>
             <p className="mt-6 mb-8 text-lg sm:mb-12">
               Hello there! I'm a web designer, and I'm very passionate and
-              dedicated to my work. With 6 months experience as a professional
-              web developer, I have acquired the skills and knowledge necessary
-              to make your project a success. I enjoy every step of the design
-              process, from discussion and collaboration.
+              dedicated to my work. With 6 months of experience as a
+              professional web developer, I have acquired the skills and
+              knowledge necessary to make your project a success. I enjoy every
+              step of the design process, from discussion and collaboration.
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <Link
