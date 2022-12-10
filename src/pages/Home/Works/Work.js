@@ -12,17 +12,23 @@ const Work = () => {
           alt=""
         />
         <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100 ">
-          <a href="https://korai-cox.web.app/">
+          <a href="https://korai-cox.web.app/" target="_blank">
             <p className="mb-4 text-lg font-bold text-gray-100 flex my-10 mx-20 ">
               <LinkIcon className="w-6 h-6 mx-2" /> Live Site
             </p>
           </a>
-          <a href="https://github.com/mdalauddin45/Korai-Restaurant-Clint">
+          <a
+            href="https://github.com/mdalauddin45/Korai-Restaurant-Clint"
+            target="_blank"
+          >
             <p className="mb-4 text-lg font-bold text-gray-100 flex mx-20">
               <LinkIcon className="w-6 h-6 mx-2" /> Clint Site
             </p>
           </a>
-          <a href="https://github.com/mdalauddin45/Korai-Restaurant-Server">
+          <a
+            href="https://github.com/mdalauddin45/Korai-Restaurant-Server"
+            target="_blank"
+          >
             <p className="mb-4 text-lg font-bold text-gray-100 flex mx-20">
               <LinkIcon className="w-6 h-6 mx-2" /> Server Site
             </p>

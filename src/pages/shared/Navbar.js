@@ -64,7 +64,6 @@ const Navbar = () => {
               href={
                 "https://drive.google.com/u/0/uc?id=1zYmz80jpaKnQpuI-ZOs0nh4O36amud5d&export=download"
               }
-              target="_blank"
               className=" hover:font-bold hover:text-white rounded-full hover:bg-gradient-to-r hover:from-emerald-500 hover:to-lime-500"
             >
               Download Resume
