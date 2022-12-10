@@ -12,7 +12,7 @@ function Works() {
         setProjects(data);
       });
   }, []);
-  console.log(projects);
+  // console.log(projects);
   return (
     <div>
       <div className="text-center">

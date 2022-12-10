@@ -1,7 +1,7 @@
 import React from "react";
 import { LinkIcon } from "@heroicons/react/24/solid";
 const Work = ({ project }) => {
-  console.log(project);
+  // console.log(project);
   return (
     <div aria-label="View Item">
       <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl ">
