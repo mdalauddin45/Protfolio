@@ -1,6 +1,10 @@
 import React from "react";
+import { useState } from "react";
+import PrimaryButton from "../../components/Button/PrimaryButton";
+import SmallSpinner from "../../components/Spinner/SmallSpinner";
 
 const Contact = () => {
+  const [loading, setLoading] = useState(false);
   // const handleSubmit = (e) => {
   //   e.preventDefault();
   //   const name = e.target.name.value;
@@ -38,6 +42,7 @@ const Contact = () => {
               type="text"
               placeholder=""
               className="w-full p-3 rounded border shadow-sm"
+              required
             />
           </div>
           <div>
@@ -47,24 +52,25 @@ const Contact = () => {
               type="email"
               className="w-full p-3 rounded border shadow-sm"
               data-temp-mail-org="1"
+              required
             />
           </div>
 
           <div>
             <label className="text-sm">Message</label>
             <textarea
-              id="message"
               rows="3"
               name="message"
               className="w-full p-3 rounded border shadow-sm"
+              required
             ></textarea>
           </div>
-          <button
+          <PrimaryButton
             type="submit"
-            className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded dark:bg-green-400 dark:text-gray-900"
+            classes="w-full px-8 py-3 font-semibold rounded-md bg-gray-900 hover:bg-gray-700 hover:text-white text-gray-100"
           >
-            Send Message
-          </button>
+            {loading ? <SmallSpinner /> : "Send Message"}
+          </PrimaryButton>
         </form>
       </div>
     </div>
