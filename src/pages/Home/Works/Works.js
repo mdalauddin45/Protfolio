@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import Work from "./Work";
+import "./Works.css";
 
 function Works() {
   const [projects, setProjects] = useState([]);
@@ -13,7 +14,7 @@ function Works() {
       });
   }, []);
   return (
-    <div>
+    <div id="bg">
       <div className="text-center">
         <h1 className="text-3xl text-green-400 font-serif">My Amazing Works</h1>
         <p className="text-lg py-5 px-5 text-gray-600">
