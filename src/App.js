@@ -1,5 +1,6 @@
 import React from "react";
 import { RouterProvider } from "react-router-dom";
+import "react-photo-view/dist/react-photo-view.css";
 import { router } from "./Routes/Router";
 function App() {
   return (

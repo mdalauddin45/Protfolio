@@ -1,6 +1,8 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
 import PrimaryButton from "../../../components/Button/PrimaryButton";
+import "react-photo-view/dist/react-photo-view.css";
+import { PhotoProvider, PhotoView } from "react-photo-view";
 
 const ProjectDetails = () => {
   const projects = useLoaderData();
@@ -11,31 +13,51 @@ const ProjectDetails = () => {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <section className="py-6  dark:text-gray-50">
         <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
-          <img
-            src={image1}
-            alt=""
-            className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square"
-          />
-          <img
-            alt=""
-            className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-            src={image2}
-          />
-          <img
-            alt=""
-            className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-            src={image3}
-          />
-          <img
-            alt=""
-            className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-            src={image4}
-          />
-          <img
-            alt=""
-            className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-            src={image5}
-          />
+          <PhotoProvider>
+            <PhotoView src={image1}>
+              <img
+                src={image1}
+                alt="/"
+                className="object-cover object-center w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square"
+              />
+            </PhotoView>
+          </PhotoProvider>
+          <PhotoProvider>
+            <PhotoView src={image2}>
+              <img
+                alt=""
+                className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
+                src={image2}
+              />
+            </PhotoView>
+          </PhotoProvider>
+          <PhotoProvider>
+            <PhotoView src={image3}>
+              <img
+                alt=""
+                className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
+                src={image3}
+              />
+            </PhotoView>
+          </PhotoProvider>
+          <PhotoProvider>
+            <PhotoView src={image4}>
+              <img
+                alt=""
+                className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
+                src={image4}
+              />
+            </PhotoView>
+          </PhotoProvider>
+          <PhotoProvider>
+            <PhotoView src={image5}>
+              <img
+                alt=""
+                className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
+                src={image5}
+              />
+            </PhotoView>
+          </PhotoProvider>
         </div>
       </section>
       <div className="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto">
@@ -49,7 +71,7 @@ const ProjectDetails = () => {
         <div className="flex flex-col justify-center p-8 bg-white lg:p-16 lg:pl-10 lg:w-1/2">
           <div>
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-400">
-              Full Stack Projects
+              New Project
             </p>
           </div>
           <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
