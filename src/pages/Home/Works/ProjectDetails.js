@@ -25,10 +25,6 @@ const ProjectDetails = () => {
             {name}
           </h5>
 
-          <p className="mb-5 text-gray-900">Client side: {clientside}</p>
-          <p className="mb-5 text-gray-900">Server Side: {serverside}</p>
-          <p className="mb-5 text-gray-900">Live side: {liveside}</p>
-
           <div className="flex items-center">
             <a href={liveside} target="-blank">
               <button
