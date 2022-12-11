@@ -6,13 +6,12 @@ import Work from "./Work";
 function Works() {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("projects.json")
+    fetch("http://localhost:5000/projects")
       .then((res) => res.json())
       .then((data) => {
         setProjects(data);
       });
   }, []);
-  // console.log(projects);
   return (
     <div>
       <div className="text-center">
@@ -25,7 +24,7 @@ function Works() {
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-3 sm:row-gap-6 sm:grid-cols-2">
           {projects.map((project) => (
-            <Work project={project} key={project.id}></Work>
+            <Work project={project} key={project._id}></Work>
           ))}
         </div>
       </div>

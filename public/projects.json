@@ -1,34 +1,34 @@
 [
 {
-    "id":1,
+    "name":"Korai Cox's Restaurant",
     "image":"https://i.ibb.co/bX61j4X/bandicam-2022-12-10-11-27-15-376.jpg",
-    "live-site":"https://korai-cox.web.app/",
-    "client-side":"https://github.com/mdalauddin45/Korai-Restaurant-Clint",
-    "server-side":"https://github.com/mdalauddin45/Korai-Restaurant-Server"
+    "liveside":"https://korai-cox.web.app/",
+    "clientside":"https://github.com/mdalauddin45/Korai-Restaurant-Clint",
+    "serverside":"https://github.com/mdalauddin45/Korai-Restaurant-Server"
     
 },
 {
-    "id":2,
+    "name":"Learning Platform",
     "image":"https://i.ibb.co/hMndNGp/bandicam-2022-12-10-11-27-12-208.jpg",
-    "live-site":"https://bgc-tech.web.app/",
-    "client-side":"https://github.com/mdalauddin45/learning-platform-client-side",
-    "server-side":"https://github.com/mdalauddin45/lerning-platform-server-side"
+    "liveside":"https://bgc-tech.web.app/",
+    "clientside":"https://github.com/mdalauddin45/learning-platform-client-side",
+    "serverside":"https://github.com/mdalauddin45/lerning-platform-server-side"
     
 },
 {
-    "id":3,
+    "name":"Ctg Gari Bazar",
     "image":"https://i.ibb.co/LP0hBph/bandicam-2022-12-10-11-27-04-400.jpg",
-    "live-site":"https://ctggaribazar.web.app/",
-    "client-side":"https://github.com/mdalauddin45/Car-Seal-Cline-Side",
-    "server-side":"https://github.com/mdalauddin45/Car-Seal-Server-sdte"
+    "liveside":"https://ctggaribazar.web.app/",
+    "clientside":"https://github.com/mdalauddin45/Car-Seal-Cline-Side",
+    "serverside":"https://github.com/mdalauddin45/Car-Seal-Server-sdte"
     
 },
 {
-    "id":4,
+    "name":"Doctors Portal",
     "image":"https://i.ibb.co/1f8zqfv/bandicam-2022-12-10-11-32-02-135.jpg",
-    "live-site":"https://bgc-doctors-portal.web.app/",
-    "client-side":"https://github.com/mdalauddin45/doctors-portal-client",
-    "server-side":"https://github.com/mdalauddin45/Doctors-Portal-Server"
+    "liveside":"https://bgc-doctors-portal.web.app/",
+    "clientside":"https://github.com/mdalauddin45/doctors-portal-client",
+    "serverside":"https://github.com/mdalauddin45/Doctors-Portal-Server"
     
 }
 ]
