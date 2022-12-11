@@ -32,7 +32,7 @@ const About = () => {
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <Link
                 rel="noopener noreferrer"
-                to="#"
+                to="/contact"
                 className=" text-lg font-semibold rounded"
               >
                 <PrimaryButton classes="px-8 py-3 text-lg font-semibold rounded-full">

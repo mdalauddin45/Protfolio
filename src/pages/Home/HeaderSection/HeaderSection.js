@@ -34,7 +34,7 @@ function HeaderSection() {
               </Link>
               <Link
                 rel="noopener noreferrer"
-                to="#"
+                to="/contact"
                 className=" text-lg font-semibold rounded"
               >
                 <PrimaryButton classes="px-8 py-3 text-lg font-semibold rounded-full">
