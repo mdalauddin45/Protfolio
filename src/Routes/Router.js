@@ -16,7 +16,9 @@ export const router = createBrowserRouter([
         path: "/projectdetails/:id",
         element: <ProjectDetails />,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/projects/${params.id}`),
+          fetch(
+            `https://protfolio-server-six.vercel.app/projects/${params.id}`
+          ),
       },
       { path: "/contact", element: <Contact /> },
       { path: "/about", element: <AboutMe /> },

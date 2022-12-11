@@ -6,7 +6,7 @@ import Work from "./Work";
 function Works() {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/projects")
+    fetch("https://protfolio-server-six.vercel.app/projects")
       .then((res) => res.json())
       .then((data) => {
         setProjects(data);
