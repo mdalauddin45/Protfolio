@@ -3,15 +3,15 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div>
-      <div id="about" class="iknow_tm_main_section">
-        <div class="iknow_tm_about">
-          <div class="left">
-            <div class="left_inner">
-              <div class="image">
+      <div id="about" className="iknow_tm_main_section">
+        <div className="iknow_tm_about">
+          <div className="left">
+            <div className="left_inner">
+              <div className="image">
                 <img src="img/thumbs/35-44.jpg" alt="" />
-                <div class="main" data-img-url="img/PIC/92620825.png"></div>
+                <div className="main" data-img-url="img/PIC/92620825.png"></div>
               </div>
-              <div class="details">
+              <div className="details">
                 <ul>
                   <li>
                     <h3>Name</h3>
@@ -43,15 +43,15 @@ const AboutMe = () => {
               </div>
             </div>
           </div>
-          <div class="right">
-            <div class="iknow_tm_main_title">
+          <div className="right">
+            <div className="iknow_tm_main_title">
               <span>About Me</span>
               <h3>Junior Web Developer</h3>
             </div>
-            <div class="bigger_text">
+            <div className="bigger_text">
               <p> Creative Web Developer From Bangladesh</p>
             </div>
-            <div class="text">
+            <div className="text">
               <p>
                 Hi! My name is Ala Uddin. I'm a Junior Web Developer based in
                 Bangladesh, and I'm very passionate and dedicated to my
@@ -61,7 +61,7 @@ const AboutMe = () => {
                 process, from discussion and collaboration.
               </p>
             </div>
-            <div class="iknow_tm_button">
+            <div className="iknow_tm_button">
               <a
                 type="button"
                 href="https://drive.google.com/u/0/uc?id=1zYmz80jpaKnQpuI-ZOs0nh4O36amud5d&export=download"

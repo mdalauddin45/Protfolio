@@ -1,9 +1,10 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
+import PrimaryButton from "../../../components/Button/PrimaryButton";
 
 const ProjectDetails = () => {
   const projects = useLoaderData();
-  console.log(projects);
+  //   console.log(projects);
   const { image, name, clientside, liveside, serverside } = projects;
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -27,28 +28,34 @@ const ProjectDetails = () => {
 
           <div className="flex items-center">
             <a href={liveside} target="-blank">
-              <button
+              <PrimaryButton
                 type="submit"
-                className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-400 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
+                classes={
+                  " h-12 px-6 mr-6 font-medium tracking-wide text-white rounded shadow-md "
+                }
               >
-                Live Side
-              </button>
+                Live
+              </PrimaryButton>
             </a>
             <a href={clientside} target="-blank">
-              <button
+              <PrimaryButton
                 type="submit"
-                className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-400 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
+                classes={
+                  " h-12 px-6 mr-6 font-medium tracking-wide text-white rounded shadow-md "
+                }
               >
-                Client Side
-              </button>
+                Client
+              </PrimaryButton>
             </a>
             <a href={serverside} target="-blank">
-              <button
+              <PrimaryButton
                 type="submit"
-                className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-400 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
+                classes={
+                  " h-12 px-6 mr-6 font-medium tracking-wide text-white rounded shadow-md "
+                }
               >
-                Server Side
-              </button>
+                Server
+              </PrimaryButton>
             </a>
           </div>
         </div>
