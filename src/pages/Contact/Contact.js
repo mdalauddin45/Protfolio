@@ -1,6 +1,13 @@
 import React from "react";
 
 const Contact = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const name = e.target.name.value;
+    const email = e.target.email.value;
+    const message = e.target.message.value;
+    console.log(name, email, message);
+  };
   return (
     <div>
       <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32  dark:text-gray-900 shadow-sm">
@@ -20,40 +27,35 @@ const Contact = () => {
           />
         </div>
         <form
-          novalidate=""
+          onSubmit={handleSubmit}
           className="space-y-6 ng-untouched ng-pristine ng-valid"
         >
           <div>
-            <label for="name" className="text-sm">
-              Full name
-            </label>
+            <label className="text-sm">Full name</label>
             <input
               id="name"
               type="text"
               placeholder=""
-              className="w-full p-3 rounded dark:bg-gray-800"
+              className="w-full p-3 rounded border shadow-sm"
             />
           </div>
           <div>
-            <label for="email" className="text-sm">
-              Email
-            </label>
+            <label className="text-sm">Email</label>
             <input
               id="email"
               type="email"
-              className="w-full p-3 rounded dark:bg-gray-800"
+              className="w-full p-3 rounded border shadow-sm"
               data-temp-mail-org="1"
             />
           </div>
 
           <div>
-            <label for="message" className="text-sm">
-              Message
-            </label>
+            <label className="text-sm">Message</label>
             <textarea
               id="message"
               rows="3"
-              className="w-full p-3 rounded dark:bg-gray-800"
+              name="message"
+              className="w-full p-3 rounded border shadow-sm"
             ></textarea>
           </div>
           <button

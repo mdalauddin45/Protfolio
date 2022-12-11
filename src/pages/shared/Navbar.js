@@ -53,7 +53,7 @@ const Navbar = () => {
           to="/"
           className="flex title-font font-medium items-center text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-lime-500  md:mb-0"
         >
-          <span className="ml-3 text-2xl font-bold ">Md Ala Uddin</span>
+          <span className="ml-3 text-2xl font-bold font-serif ">Ala Uddin</span>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
